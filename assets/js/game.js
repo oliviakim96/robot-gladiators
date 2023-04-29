@@ -9,7 +9,15 @@ var enemyName="Roborto";
 var enemyHealth= 50;
 var enemyAttack=12;
 
+var playerMoney=10;
+
+//ask the player to confirm that they want to quit
+//if they answer `yes`, subtract 2 from the playerMoney variable and creat an alert that lets the player know they're leaving the game. 
+//if they say `no`, execute the fight function to start the fight over again. This will give them the choice to fight or skip , so they can choose `fight` and keep playing. 
+
+
 var promptFight=window.prompt("would you like to fight or skip this battle?Enter `fight` or `skip` to choose");
+
 
 //Function expression: this is when create a function by assigning it to a variable. 
 var fight=function(){
